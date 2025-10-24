@@ -14,7 +14,7 @@ Very importantly, the difference between the first and second columns for each s
 
 We do this for every player and create a big database with each player's current and previous seasons.
 
-In a world where América signs players from every Liga MX team every year, we would have enough information to see which teams send over high-performing players to América, and which teams we should stop signing from. But this is not the case, in fact América has only signed a couple of players in the last 5 seasons, and some teams have not sent a player to América in over a decade. This is the hole our project is trying to fill. 
+In a world where América signs players from every Liga MX team every year, we would have enough information to see which teams send over high-performing players to América, and which teams we should stop signing from. But this is not the case, in fact América has only signed a couple of players in the last 5 seasons, and some teams have not sent a player to América in over a decade. This is the gap our project is trying to bridge.
 
 In order to do this, we started by using Statsbombpy’s team_season_stats and curated a selection of stats that tell us about the intention and the means a team employs when playing their games. These stats include:
 
