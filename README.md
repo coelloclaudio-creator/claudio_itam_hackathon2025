@@ -1,5 +1,9 @@
-# ISAC 2025 Hackathon, Claudio Coello
+# Claudio Coello's project for the ISAC 2025 HAackathon.
 Project for the player recommendation hackathon in the 2025 ITAM Sports Analytics Conference.
+
+### LinkedIn: www.linkedin.com/in/claudiocoello
+### Contact me at coelloclaudio@gmail.com
+### Data Science student and the University of Florida.
 
 # Order of tasks performed:
 
