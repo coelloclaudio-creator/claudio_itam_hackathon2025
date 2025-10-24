@@ -3,7 +3,7 @@ Project for the player recommendation hackathon in the 2025 ITAM Sports Analytic
 
 ### LinkedIn: www.linkedin.com/in/claudiocoello
 ### Contact me at coelloclaudio@gmail.com
-### Data Science student and the University of Florida.
+### Data Science student at the University of Florida.
 
 # Order of tasks performed:
 
