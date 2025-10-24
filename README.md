@@ -19,6 +19,35 @@ Each team was assigned an offensive and defensive score based on a PCA of xG out
 
 ## -5. Deploying a streamlit app
 
+This app is divided into 2 pages. 
+Page 1: shows a visualization of the tools used during the project
+Page 2: glossary that explains key terms and methodology.
+
+This project requires Python 3.10+. After cloning the repository and moving into the project root:
+
+0.1 Create a virtual environment
+
+`conda create -n football_env python=3.10`
+
+`conda activate football_env`
+
+0.2 Install dependencies
+
+`pip install -r requirements.txt`
+
+# Step 1) Run the App:
+
+`streamlit run App.py`
+
+Wait a few seconds. You’ll see a local URL in your terminal that you can click to open the app in your browser.
+
+# Step 2) Use the app:
+
+Inspect the sample dataframes to see their content, search for players (case and accent senstivie), and change the statistic displayed in the cluster transition matrix (only a couple are included in the app due to efficiency purposes but could be changed if the function code is changed.)
+
+Visit page 2 to read the glossary on key terms, definitions, and formulas.
+
+
 
 
 
