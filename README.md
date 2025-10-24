@@ -3,11 +3,11 @@ Project for the player recommendation hackathon in the 2025 ITAM Sports Analytic
 
 # Order of tasks performed:
 
-##-1. Loading data from Statsbomb and processing dataframes for analysis
-##-2. Selecting statistics
-##-3. Principal Component Analysis and KMeans Clustering
-##-4. Building the cluster transition matrix
-##-5. Deploying a streamlit app
+## -1. Loading data from Statsbomb and processing dataframes for analysis
+## -2. Selecting statistics
+## -3. Principal Component Analysis and KMeans Clustering
+## -4. Building the cluster transition matrix
+## -5. Deploying a streamlit app
 
 1. The data was loaded using the credentials provided by ITAM for this hackathon. All of the data used in this project is not avalaible as open data from statsbombpy. The dataframes were created using pandas, and they use statsbomb's naming conventions.
 
