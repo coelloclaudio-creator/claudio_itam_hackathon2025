@@ -5,15 +5,19 @@ st.subheader('What was done in this project?')
 
 paragraph = """The first step was to use the player_season_stats from Statsbombpy to create a personalized data frame. What we did was take every row in this data frame, which represents one player’s statistical output over a full season, and try to find that same player’s previous season’s row. For example, we need to take Alvaro Fidalgo’s 2023/24 and 2022/23 seasons and add these to our new data frame. 
 The columns are organized in this order:
+
 Fidalgo’s 2023/24 stats.
+
 Fidalgo’s 2022/23 stats.
-Very importantly, the difference between the first and second columns for each stat. In this project, we call the most recent of the two years “current”, and the former “previous.”
+
+Very importantly, the difference between the first and second columns for each stat was also appended. In this project, we call the most recent of the two years “current”, and the former “previous.”
 
 We do this for every player and create a big database with each player's current and previous seasons.
 
 In a world where América signs players from every Liga MX team every year, we would have enough information to see which teams send over high-performing players to América, and which teams we should stop signing from. But this is not the case, in fact América has only signed a couple of players in the last 5 seasons, and some teams have not sent a player to América in over a decade. This is the hole our project is trying to fill. 
 
 In order to do this, we started by using Statsbombpy’s team_season_stats and curated a selection of stats that tell us about the intention and the means a team employs when playing their games. These stats include:
+
  'Team_season_possession'
  'Team_season_pace_towards_goal'
  'team_season_box_cross_ratio'
@@ -24,9 +28,12 @@ In order to do this, we started by using Statsbombpy’s team_season_stats and c
  'Team_season_deep_progressions_pg'
  'Team_season_np_shots_pg'
 
+
 We also picked 4 key stats that explain teams’ performance during a season. 2 explain their offensive output, and 2 their defensive prowess. These are:
+
 'team_season_np_xg_pg', 'team_season_op_xg_pg', 
                           'team_season_obv_pg', 'team_season_obv_conceded_pg
+                          
 
 We then conducted a Principal Component Analysis on these 2 groups of statistics separately. 
 
